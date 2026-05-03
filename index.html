@@ -1,72 +1,159 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <link href="assets/css/style.css" rel="stylesheet">
-        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'>
-        <link rel="shortcut icon" href="assets/images/logo.png" type="image/webp">
-        <link rel="apple-touch-icon" sizes="180x180" href="images/logo.png">
-        <link rel="icon" href="assets/images/logo.png" type="image/webp">
-        <title>Hyena Imports | Preços que não te mordem | Distribuidora</title>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <!-- Snowfall Background Animation -->
-        <section class="animated-background">
-            <div id="stars1"></div>
-            <div id="stars2"></div>
-            <div id="stars3"></div>
-        </section>
-        <!-- End of Snowfall Background Animation -->
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Hyena Imports | Preços que não te mordem</title>
 
-        <div class="min-h-full flex-h-center" id="background_div">
-            <input type="hidden" value="https://bio.link" id="app-url">
-                <input type="hidden" value="null" id="is-featured">
-                    <canvas id="bg-canvas" class="background-overlay"></canvas>
-                </input>
-            </input>
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="icon" href="assets/images/logo.png" type="image/webp">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
 
-            <div class="mt-48 page-full-wrap relative ">
-                <input type="hidden" value="creator-page" id="page-type">
-                <img class="display-image m-auto" data-src="assets/images/logo.png" src="assets/images/logo.png" alt="[Your photo alt]"/>
-                <h2 class="page-title page-text-color page-text-font mt-16 text-center">Hyena Imports <br> Preços que não te mordem</h2>
-                       
-                <div class="mt-24">
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://shopee.com.br/hyenaimports" data-id="261652" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/linkedin.png" src="assets/images/shopee.png" alt="LinkedIn @ [User]"/>
-                            <span class=" item-title text-center">Compre pela Shopee</span>
-                        </a>
-                    </div>        
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://wa.me/5547920014973?text=Ol%C3%A1!%20Quero%20tirar%20d%C3%BAvidas%20sobre%20os%20produtos" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/github.png" src="assets/images/whatsapp.png" alt="GitHub @ [User]"/>
-                            <span class=" item-title text-center">Falar com comercial</span>
-                        </a>
-                    </div>    
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://www.instagram.com/hyena_imports" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/instagram.png" alt="Instagram @ [User]"/>
-                            <span class=" item-title text-center">Siga no Instagram</span>
-                        </a>
-                    </div>    
-                    <div class="page-item-wrap relative">
-                        <div class="page-item flex-both-center absolute"></div>
-                        <a target="_blank"  class="page-item-each py-10 flex-both-center" href="https://g.page/r/CdgXIKWuqlgoEBM/review" data-id="261685" data-type="page_item">
-                            <img class="link-each-image" data-src="assets/images/instagram.png" src="assets/images/google.png" alt="Instagram @ [User]"/>
-                            <span class=" item-title text-center">Avalie no Google</span>
-                        </a>
-                    </div>              
-                </div>                                                                                
+<body>
+
+    <!-- Canvas background -->
+    <canvas id="bg-canvas" class="background-overlay"></canvas>
+
+    <div class="min-h-full flex-h-center">
+
+        <div class="mt-48 page-full-wrap relative">
+
+            <!-- Logo -->
+            <img class="display-image m-auto" src="assets/images/logo.png"/>
+
+            <!-- Título -->
+            <h2 class="page-title text-center">
+                Hyena Imports <br>
+                Preços que não te mordem
+            </h2>
+
+            <!-- Subtexto (CONVERSÃO) -->
+            <p style="text-align:center; margin-top:10px; opacity:0.8;">
+                Produtos da China com preço de importadora, à pronta entrega no Brasil
+            </p>
+
+            <div class="mt-24">
+
+                <!-- BOTÃO PRINCIPAL -->
+                <div class="page-item-wrap">
+                    <a target="_blank" class="page-item-each py-10 flex-both-center"
+                       href="https://shopee.com.br/hyenaimports"
+                       style="font-weight:600;">
+                        <span class="item-title text-center">
+                            🛒 Comprar na Shopee
+                        </span>
+                    </a>
+                </div>
+
+                <!-- WhatsApp -->
+                <div class="page-item-wrap">
+                    <a target="_blank" class="page-item-each py-10 flex-both-center"
+                       href="https://wa.me/5547920014973?text=Olá! Quero tirar dúvidas">
+                        <span class="item-title text-center">
+                            💬 Falar no WhatsApp
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Instagram -->
+                <div class="page-item-wrap">
+                    <a target="_blank" class="page-item-each py-10 flex-both-center"
+                       href="https://www.instagram.com/hyena_imports">
+                        <span class="item-title text-center">
+                            📸 Instagram
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Google -->
+                <div class="page-item-wrap">
+                    <a target="_blank" class="page-item-each py-10 flex-both-center"
+                       href="https://g.page/r/CdgXIKWuqlgoEBM/review">
+                        <span class="item-title text-center">
+                            ⭐ Avaliar no Google
+                        </span>
+                    </a>
+                </div>
+
             </div>
         </div>
-    </body>
+    </div>
 
-    <!--
-    A different snowfall    
-    <script  src="assets/js/snowfall.js"></script>
-    -->
+    <!-- SCRIPT HYENA BACKGROUND -->
+    <script>
+    (() => {
+        const canvas = document.getElementById("bg-canvas");
+        const ctx = canvas.getContext("2d");
+
+        function resizeCanvas() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+
+        resizeCanvas();
+        window.addEventListener("resize", resizeCanvas);
+
+        const hyenaImg = new Image();
+        hyenaImg.src = "assets/images/cabeca.png";
+
+        const PARTICLE_COUNT = 60;
+        let particles = [];
+
+        function createParticle() {
+            return {
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                size: Math.random() * 20 + 10,
+                speedY: Math.random() * 1 + 0.5,
+                speedX: Math.random() * 1 - 0.5,
+                opacity: Math.random() * 0.1 + 0.05
+            };
+        }
+
+        function init() {
+            particles = [];
+            for (let i = 0; i < PARTICLE_COUNT; i++) {
+                particles.push(createParticle());
+            }
+        }
+
+        function update() {
+            particles.forEach(p => {
+                p.y += p.speedY;
+                p.x += p.speedX;
+
+                if (p.y > canvas.height) {
+                    p.y = -20;
+                    p.x = Math.random() * canvas.width;
+                }
+            });
+        }
+
+        function draw() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            particles.forEach(p => {
+                ctx.globalAlpha = p.opacity;
+                ctx.drawImage(hyenaImg, p.x, p.y, p.size, p.size);
+            });
+
+            ctx.globalAlpha = 1;
+        }
+
+        function animate() {
+            update();
+            draw();
+            requestAnimationFrame(animate);
+        }
+
+        hyenaImg.onload = () => {
+            init();
+            animate();
+        };
+    })();
+    </script>
+
+</body>
 </html>
